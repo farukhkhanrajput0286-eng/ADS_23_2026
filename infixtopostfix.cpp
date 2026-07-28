@@ -87,7 +87,7 @@ string infixToPostfix(string infix)
 // Main Function
 int main()
 {
-    string infix = "(A+B*(C+D)/F+D*E)";
+    string infix = "(a+b*c-d^e^f)";
 
     cout << "Infix Expression  : " << infix << endl;
 
