@@ -87,7 +87,9 @@ string infixToPostfix(string infix)
 // Main Function
 int main()
 {
-    string infix = "(a+b*c-d^e^f)";
+    string infix;
+    cout<<"enter the infix expression";
+    cin>>infix;
 
     cout << "Infix Expression  : " << infix << endl;
 
@@ -97,3 +99,7 @@ int main()
 
     return 0;
 }
+
+
+
+      // second question 
